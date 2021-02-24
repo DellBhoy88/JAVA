@@ -1,0 +1,65 @@
+root@dcu-ca:/# cd /var/www/html/f1
+root@dcu-ca:/var/www/html/f1# 
+root@dcu-ca:/var/www/html/f1# 
+root@dcu-ca:/var/www/html/f1#  nano hello.html
+
+
+
+root@dcu-ca:/var/www/html/f1# php team.php
+
+ <b> Team  </b>Ferrari run by Mattia Binotto races for IT and founded in 1950.
+ <b> Team  </b>Mercedes run by Toto Wolff races for DE and founded in 1954.
+ <b> Team  </b>AlfaRomeo run by Frederic Vasseur races for CH and founded in 1993.
+ <b> Team  </b>Red Bull run by Christian Horner races for AT and founded in 2005.
+ <b> Team  </b>Williams run by Simon Roberts races for UK and founded in 1978.
+ <b> Team  </b>Jordan run by Eddie Jordan races for IE and founded in 2003.
+ 
+
+<h1> Enter New Team </h1>
+<form action="updater.php" method="post">
+Name:<input type="text" name="TeamName" value="" />
+<br>
+Country Code:<input type="text" name="Country" value="" />
+<br>
+Manager:<input type="text" name="ManagerName" value="" />
+<br>
+Year Founded:<input type="text" name="YearFounded" value="" />
+<br><br>
+<input type="submit" value="Enter" />
+</form>
+
+
+PART 11
+
+root@dcu-ca:/var/www/html/f1# cd /var/www/html/store
+root@dcu-ca:/var/www/html/store# 
+root@dcu-ca:/var/www/html/store# 
+root@dcu-ca:/var/www/html/store# php team.php
+
+
+
+ <h3> Team member  </h3>John Hogan is a  m, and is based in  london.  There PPS number is 4111 and are assigned to department 2222.
+ <h3> Team member  </h3>Adam Kane is a  m, and is based in  riga.  There PPS number is 7788 and are assigned to department 4444.
+ <h3> Team member  </h3>Tom Hanks is a  m, and is based in  dublin.  There PPS number is 7908 and are assigned to department 1111.
+ <h3> Team member  </h3>Alison Kane is a  f, and is based in  Moscow.  There PPS number is 8213 and are assigned to department 3333.
+ 
+
+
+
+
+<h1> Enter New Team Member </h1>
+<form action="updater.php" method="post">
+Name:<input type="text" name="Name" value="" />
+<br>
+Location:<input type="text" name="Country" value="" />
+<br>
+Gender:<input type="text" name="Gender" value="" />
+<br>
+Depart_no:<input type="text" name="Depart_no" value="" />
+<br>
+PPS:<input type="text" name="PPS" value="" />
+<br><br>
+<input type="submit" value="Enter" />
+</form>
+
+
